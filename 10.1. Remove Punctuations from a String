@@ -1,0 +1,9 @@
+# Type Content here...
+s = input()
+result = ""
+
+for c in s:
+	if c.isalnum() or c == " ":
+		result += c
+
+print(result)
